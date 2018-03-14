@@ -1,1 +1,2 @@
-print("Hola mundo!")
+name = input("¿Cómo te llamas?")
+print ( "Hola {}".format(name) )
