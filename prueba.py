@@ -1,2 +1,4 @@
+import datetime
 name = input("¿Cómo te llamas?")
-print ( "Hola {}".format(name) )
+acceso = datetime.now()
+print ( "Hola {}, has accedido al programe el {}".format(name, acceso) )
